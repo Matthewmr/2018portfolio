@@ -1,16 +1,55 @@
 
 .purpleborder{border:5px solid purple;}
 
-.marginbox {margin-top: 30px;}
+.marginbox {padding-top: 10px; margin-top: 22px;}
+
+.margintop {margin-top: 18px;}
 
 .black {background-color: black;}
 
-.white {background-color: white}
+.white {background-color: rgb(246, 247, 244);}
+
+.whiter {background-color: white;}
 
 .centertext {text-align: center;}
 
-h1 {font-family: 'Marck Script', cursive;}
+.bone {background-color: rgb(251, 255, 229);}
 
-h2 {font-family: 'Rufina', serif; padding: 1%;}
+.mainborder {border: solid: rgb(246, 247, 244);}
+
+.paddingleft {padding-left: 26px; padding-right: 26px;}
+
+
+
+h1 {font-family: 'Shadows Into Light Two', cursive; font-size: 7em;}
+
+h2 {font-family: 'Marck Script', cursive;}
+
+h3 {font-family: 'Rufina', serif; font-size: 2em;}
 
 h4 {font-family: 'Rufina', serif; padding: 1%;}
+
+p {font-family: 'Rufina', sans-serif; font-size: 1.5em; padding: 10px;}
+
+/* ////////Design////////// */
+
+.clickme {
+  background-color: rgb(255, 245, 183);
+  color: black;
+  font-size: 1.2em;
+  padding: 2%;
+  border-radius: 20%;
+}
+
+.portfolio {
+  background-color: rgb(255, 245, 183);
+  color: black;
+  font-size: 2.6em;
+  padding: 2%;
+  border-radius: 20%;
+}
+
+h4 a:hover {
+  background-color: rgb(255, 205, 119);
+  color: black;
+}
