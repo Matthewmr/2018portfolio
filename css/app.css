@@ -7,6 +7,8 @@
 
 .black {background-color: black;}
 
+.blacktext {color: black;}
+
 .white {background-color: rgb(246, 247, 244);}
 
 .whiter {background-color: white;}
@@ -19,7 +21,9 @@
 
 .paddingleft {padding-left: 26px; padding-right: 26px;}
 
+.home {font-size: 1.2em;}
 
+figcaption {font-family: 'Rufina', serif; font-size: 1.2em; margin-top: 5%; margin-bottom: 5%}
 
 h1 {font-family: 'Shadows Into Light Two', cursive; font-size: 7em;}
 
@@ -52,4 +56,33 @@ p {font-family: 'Rufina', sans-serif; font-size: 1.5em; padding: 10px;}
 h4 a:hover {
   background-color: rgb(255, 205, 119);
   color: black;
+}
+
+a figcaption:hover{
+  background-color: rgb(255, 205, 119);
+  color: black;
+}
+
+/* //////nav///// */
+
+ul {
+  margin: 10px 20px 5px 20px;
+  text-align: center;
+}
+
+li {
+  font-family: 'Shadows Into Light Two', cursive;
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+nav a:hover{
+  color: rgb(188, 138, 0);
+}
+
+nav a.current{
+  color: rgb(145, 139, 127);
 }
